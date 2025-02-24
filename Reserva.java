@@ -4,10 +4,10 @@ package ejercicios.poo;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-
-public class principal {
-
+public class Reserva {
     
+    public class principal {
+
     public static void main(String[] args) {
          Scanner Tomardatos = new Scanner(System.in);
          Sala datosala = new Sala(10); // Creando una sala con 10 asientos
@@ -24,8 +24,8 @@ public class principal {
         }
         System.out.println("No hay más asientos disponibles o ha decidido no reservar más asientos.");
         Tomardatos.close();
+      }
     }
-  // Astraccion
 public class Persona {
       
    private static String Nombre;
@@ -37,7 +37,6 @@ public class Persona {
         Persona.Correo = datoCorreo;
         this.Telefono = datoTelefono;
     }
-  //Encapsulamiento
     public int getTelefono(){
         int auxTelefono = this.Telefono;
        return auxTelefono;
@@ -45,18 +44,15 @@ public class Persona {
     public void setTelefono(int datoTelefono){
        this.Telefono = datoTelefono;
     }
-  
     public void imprimirdatos(){
         System.out.println("El Nombre es: "+Persona.Nombre);
         System.out.println("El Correo es: "+Persona.Correo);
     }
-  //Polimorfismo
     public static void telefono(){
         Persona objtelefono = new Telefono("");
         objtelefono.imprimirdatos();
         System.out.println("el telefono es: "+Persona.Telefono);
     }
-  //Herencia
     public class Usuario extends Persona {
     public Usuario(String datonombre, String datoCorreo) {
         super(datonombre, datoCorreo);
@@ -67,7 +63,9 @@ public class Persona {
         } else {
             System.out.println("Lo siento, " + getNombre() + ", no hay asientos disponibles.");
         }
-
+    }
+    }
+}
 public class Sala {
     private ArrayList<Asiento> Asientos;
     
@@ -112,6 +110,6 @@ public class Asiento {
     public void reservar() {
         this.disponible = false;
     }
+ }
 }
-
-}
+    
