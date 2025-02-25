@@ -2,19 +2,21 @@ public class Persona {
       
    private static String Nombre;
     private static String Correo;
+   private static int Cedula;
     private int Telefono;
     
-    public Persona(String datoNombre, String datoCorreo, int datoTelefono){
-        Persona.Nombre = datoNombre;
-        Persona.Correo = datoCorreo;
-        this.Telefono = datoTelefono;
+    public Persona(String datoNombre, String datoCorreo, int datoCedula, int datoTelefono){
+        Persona.Nombre = datoNombre();
+        Persona.Correo = datoCorreo();
+        Persona.Cedula = datoCedula();
+        this.Telefono = datoTelefono();
     }
     public int getTelefono(){
         int auxTelefono = this.Telefono;
        return auxTelefono;
     }
     public void setTelefono(int datoTelefono){
-       this.Telefono = datoTelefono;
+       this.Telefono = datoTelefono();
     }
     public void imprimirdatos(){
         System.out.println("El Nombre es: "+Persona.Nombre);
