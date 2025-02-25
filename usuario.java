@@ -1,6 +1,6 @@
  public class Usuario extends Persona {
-    public Usuario(String datonombre, String datoCorreo) {
-        super(datonombre, datoCorreo);
+    public Usuario(String datonombre, String datoCorreo, int datocontraceña) {
+        super(datonombre, datoCorreo, datocontraceña);
     }
     public void reservarAsiento(String datosala) {
         if (datosala.hayAsientosDisponibles()) {
