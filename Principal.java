@@ -1,7 +1,9 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 public class principal {
-
+public String bienvenido (){
+    System.out.println("***BIENVENIDO***");
+}
     public static void main(String[] args) {
          Scanner Tomardatos = new Scanner(System.in);
          Sala datosala = new Sala(10); // Creando una sala con 10 asientos
