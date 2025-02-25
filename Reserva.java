@@ -1,8 +1,6 @@
 # Ejercicios.poo
 package ejercicios.poo;
-public String bienvenido (){
-    System.out.println("***BIENVENIDO***");
-}
+
 public class Reserva {
     
     public void reservarAsiento() {
