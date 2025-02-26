@@ -5,8 +5,8 @@ public class Reserva {
     
     public void reservarAsiento() {
         for (Asiento asiento : Asientos) {
-            if (asiento.isDisponible()) {
-                asiento.reservar();
+            if (Asiento.isDisponible()) {
+                Asiento.reservar();
                 System.out.println("Asiento reservado.");
                 return;
             }
