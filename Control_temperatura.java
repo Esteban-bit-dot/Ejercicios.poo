@@ -5,7 +5,6 @@ import java.util.concurrent.TimeUnit;
 
 public class Control_temperatura {
     
-
     private static final Random datorandom = new Random();
 
     public static void main(String[] args) {
