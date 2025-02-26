@@ -13,7 +13,7 @@ public class Asiento {
         this.disponible = false;
     }
  }
- public boolean hayAsientosDisponibles() {
+public boolean hayAsientosDisponibles() {
         for (Asiento datoasiento : Asientos) {
             if (datoasiento.isDisponible()) {
                 return true;
