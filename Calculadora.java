@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Calculadora {
     
-
 public class Principal {
     public static void main(String[] args) {
         Scanner Tomardatos = new Scanner(System.in);
