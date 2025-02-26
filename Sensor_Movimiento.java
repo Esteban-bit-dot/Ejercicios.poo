@@ -2,10 +2,8 @@ package sensor_movimiento;
 
 import java.util.Scanner;
 
-
 public class Sensor_Movimiento{
 
-   
     public static void main(String[] args) {
         Scanner Tomardatos = new Scanner(System.in);
         Sensor objSensor  = new Sensor();
