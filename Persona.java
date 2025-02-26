@@ -1,9 +1,9 @@
 public class Persona {
       
    private static String Nombre;
-    private static String Correo;
+   private static String Correo;
    private static int Cedula;
-    private int Telefono;
+   private int Telefono;
     
     public Persona(String datoNombre, String datoCorreo, int datoCedula, int datoTelefono){
         Persona.Nombre = datoNombre();
