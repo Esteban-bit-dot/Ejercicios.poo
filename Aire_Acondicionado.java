@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 public class Aire_Acondicionado {
     
     public  static void Temperatura (){
