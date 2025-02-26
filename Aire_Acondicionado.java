@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Aire_Acondicionado {
     
-    public  static void temperatura (){
+    public  static void Temperatura (){
         Scanner Temperatura = new Scanner(System.in);
         Objtemp.temperatura ="Aire";
         int temp;
@@ -16,8 +16,8 @@ public class Aire_Acondicionado {
         
     }
     
-   public static void humedad(){
-       int humedad;
+   public static void Humedad(){
+       int Humedad;
         objtemp.humedad="Aire";
        if (humedad>60%) {
            System.out.println("Activado");
@@ -25,7 +25,7 @@ public class Aire_Acondicionado {
            System.out.print("desactivado");
        }
    }
-   public static void sensor(){
+   public static void Sensor(){
        boolean = true;
        while (tem>30°=humdad){
        if(true){
