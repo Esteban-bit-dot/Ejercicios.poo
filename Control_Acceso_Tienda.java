@@ -4,8 +4,7 @@ package ejercicios.poo;
 
 public class Control_Acceso_Tienda {
    
-
-class Usuario {
+public class Usuario {
     private boolean tieneMembresia;
     private boolean esEmpleado;
 
