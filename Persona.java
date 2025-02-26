@@ -40,7 +40,7 @@ public class Persona {
         Sytem.out.println("La Cedula es: "+Persona.Cedula);
     }
     public static void telefono(){
-        Persona objtelefono = new Telefono("");
+        Persona objtelefono = new Telefono();
         objtelefono.imprimirdatos();
         System.out.println("el telefono es: "+Persona.Telefono);
     }
