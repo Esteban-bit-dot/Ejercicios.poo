@@ -16,7 +16,7 @@ public class control_Luces {
     public static void movimiento(){
         movimiento objmovimiento = new movimiento();
         movimiento();
-        if (prenderluces=movimiento){
+        if (prenderluces = movimiento){
           boolean = true;
            System.out.println("luces prendidas"); 
         }else(false){
