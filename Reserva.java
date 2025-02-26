@@ -1,6 +1,4 @@
 # Ejercicios.poo
-package ejercicios.poo;
-
 public class Reserva {
     
     public void reservarAsiento() {
