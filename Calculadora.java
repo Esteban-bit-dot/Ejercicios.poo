@@ -13,13 +13,10 @@ public class Principal {
         while (continuar) {
             System.out.println("Introduzca el primer número: ");
             double num1 = Tomardatos.nextDouble();
-            
             System.out.println("Introduzca el segundo número: ");
             double num2 = Tomardatos.nextDouble();
-            
             System.out.println("Seleccione una operación (+, -, *, /): ");
             char operacion = Tomardatos.next().charAt(0);
-            
             double resultado = 0;
             boolean operacionValida = true;
             
