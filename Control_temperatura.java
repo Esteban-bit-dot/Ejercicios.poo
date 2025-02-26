@@ -1,7 +1,5 @@
-
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
-
 
 public class Control_temperatura {
     
