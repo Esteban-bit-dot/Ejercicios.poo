@@ -2,10 +2,12 @@ public class Asiento {
     private boolean disponible;
     
     public Asiento() {
+        System.out.println("ingrese el numero de Asientos a reservar: ");
         this.disponible = true;
     }
     
     public boolean isDisponible() {
+        Asiento objAsiento = new Asiento;
         return disponible;
     }
     
