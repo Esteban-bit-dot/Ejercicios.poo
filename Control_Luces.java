@@ -25,7 +25,7 @@ public class control_Luces {
     }
      public static void Apagarluces(){
        dia objdia =  new dia();
-       objApagarluces.setdia(datodia);
+       objApagarluces.setdiaControl_luces(datodia);
       while(luces){
         if (dia=luces){
             System.out.println("luces apagadas");
