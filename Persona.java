@@ -20,11 +20,11 @@ public class Persona {
 
         System.out.println("Digite el Correo");
         String datoCorreo= objteclado.nextLine();
-        objPersona.setNombrePersona(datoCorreo);
+        objPersona.setCorreoPersona(datoCorreo);
 
        System.out.println("Digite el Cedula");
         String datoCedula = objteclado.nextLine();
-        objPersona.setNombrePersona(datoCedula);
+        objPersona.setCedulaPersona(datoCedula);
     }
     
     public int getTelefono(){
