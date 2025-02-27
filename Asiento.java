@@ -3,15 +3,17 @@ public class Asiento {
     
     public Asiento() {
         System.out.println("ingrese el numero de Asientos a reservar: ");
+        Asiento objAsiento = new Asiento;
         this.disponible = true;
     }
     
     public boolean isDisponible() {
-        Asiento objAsiento = new Asiento;
+        isDisponible objisDisponible = new isDisponible;
         return disponible;
     }
     
     public void reservar() {
+        reservar objreservar = new reservar;
         this.disponible = false;
     }
  }
