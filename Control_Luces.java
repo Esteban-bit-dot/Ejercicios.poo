@@ -5,7 +5,7 @@ public class control_Luces {
     public static void prenderluces(){
         Scanner luceScanner = new Scanner(System.in);
         noche objnoche = new noche();
-        prenderluces();
+        objprenderluces.setnocheControl_luces(datonoche);
         if (prenderluces=noche){
             boolean = true;
            System.out.println("luces prendidas");
@@ -15,7 +15,7 @@ public class control_Luces {
     }
     public static void movimiento(){
         movimiento objmovimiento = new movimiento();
-        movimiento();
+        objmovimiento.setmovimientoControl_luces(datomovimiento);
         if (prenderluces = movimiento){
           boolean = true;
            System.out.println("luces prendidas"); 
