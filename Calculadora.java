@@ -11,9 +11,9 @@ public class Principal {
         boolean continuar = true;
         
         while (continuar) {
-            System.out.println("Introduzca el primer número: ");
+            System.out.println("Ingrese el primer número: ");
             double num1 = Tomardatos.nextDouble();
-            System.out.println("Introduzca el segundo número: ");
+            System.out.println("Ingrese el segundo número: ");
             double num2 = Tomardatos.nextDouble();
             System.out.println("Seleccione una operación (+, -, *, /): ");
             char operacion = Tomardatos.next().charAt(0);
