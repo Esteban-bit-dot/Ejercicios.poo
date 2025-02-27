@@ -5,6 +5,7 @@ public class Sala {
     public Sala(int capacidad) {
         Cantidad Asientos = "100";
         Sala datoSala = new Sala.nextInt()
+        objSala.reserva = datoSala();
         this.Asientos = datoAsientos();
         Asientos = new ArrayList<>(capacidad);
         for (int i = 0; i < capacidad; i++) {
