@@ -14,6 +14,10 @@ public class Juego_FizzBuzz {
         }
     }
 }
+public class usuario{
+    usuario = objusuario.nextInt();
+    objjugar datousuario = juegoFizzBuzz.nextInt();
+}
 public class Principal {
     public static void main(String datofizzBuzz) {
         FizzBuzz datofizzBuzz = new FizzBuzz();
