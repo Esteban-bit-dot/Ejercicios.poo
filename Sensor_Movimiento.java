@@ -12,6 +12,7 @@ public class Sensor_Movimiento{
     public String Menu(){ 
         Menu objMenu = new Menu();
         objSensor.movimiento="Alerta";
+        sensor();
         boolean = Alerta;
        while (true){
         if (movimiento=Alerta) {
