@@ -11,6 +11,7 @@ public class Control_temperatura {
             System.out.println("Temperatura actual: 20", temperatura);
 
             String estado;
+            Temperatura();
             if (temperatura < 10) {
                 estado = "Calefactor activado";
             } else if (temperatura <= 25) {
