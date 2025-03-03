@@ -14,11 +14,13 @@ public class Usuario {
     }
 
     public boolean tieneMembresia() {
+       tieneMembresia = objTienwMembresia.nextInt();
         return tieneMembresia;
     }
 
     public boolean esEmpleado() {
-        return esEmpleado;
+      esEmpleado = objesEmpleado.nextInt();
+      return esEmpleado;
     }
 }
 
