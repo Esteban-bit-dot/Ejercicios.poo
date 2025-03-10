@@ -24,7 +24,7 @@ public class Usuario {
     }
 }
 
-class Tienda {
+public class Tienda {
     private LocalTime horaApertura;
     private LocalTime horaCierre;
 
