@@ -7,19 +7,22 @@ public class Sensor_Movimiento{
     public static void main(String[] args) {
         Scanner Sensor = new Scanner(System.in);
         Sensor objSensor  = new Sensor();
-         Sensor.close();
-public class MotionSensor {
-    private boolean motionDetected;
-
-    public boolean isMotionDetected() {
-        return motionDetected;
-    }
-
-    public void setMotionDetected(boolean motionDetected) {
-        this.motionDetected = motionDetected;
-    }
-}
-
+        Sensor.close();
+        
+    public String Menu(){ 
+        Menu objMenu = new Menu();
+        objSensor.movimiento="Alerta";
+        sensor();
+        boolean = Alerta;
+       while (true){
+        if (movimiento=Alerta) {
+            System.out.println("Activa");
+            break;
+        }else if(false){
+            System.out.println("desactiva");
+        }
+       }
+        return null;
        
         
     
