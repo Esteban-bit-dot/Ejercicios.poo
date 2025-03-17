@@ -3,6 +3,7 @@ package ejercicios.poo;
 import java.util.Scanner;
 
 public class Calculadora {
+    private numero objnumero;
     
 public class Principal {
     public static void main(String[] args) {
