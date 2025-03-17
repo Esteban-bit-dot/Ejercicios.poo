@@ -1,7 +1,7 @@
  public class Usuario extends Persona {
   
     public Usuario(String datonombre, String datoCorreo, int datocontraceña) {
-        super(datonombre, datoCorreo, datocontraceña);
+        return(datonombre, datoCorreo, datocontraceña);
     }
         Scanner objTeclado = new Scanner(System.in);
         Usuario objUsuario = new Usuario();
