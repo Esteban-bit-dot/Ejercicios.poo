@@ -23,24 +23,19 @@ public class Persona {
         objPersona.setCorreoPersona(datoCorreo);
 
        System.out.println("Digite el Cedula");
-        String datoCedula = objteclado.nextLine();
+        int datoCedula = objteclado.nextLine();
         objPersona.setCedulaPersona(datoCedula);
     }
     
-    public int getTelefono(){
-        int auxTelefono = this.Telefono;
-       return auxTelefono;
+    public int Telefono(){
+        System.out.println("Digite el telefono");
+        int datoTelefono = objteclado.nextLine();
+        objPersona.setTelefonoPersona(datoTelefono);
     }
-    public void setTelefono(int datoTelefono){
-       this.Telefono = datoTelefono();
-    }
+   
     public void imprimirdatos(){
         System.out.println("El Nombre es: "+Persona.Nombre);
         System.out.println("El Correo es: "+Persona.Correo);
         Sytem.out.println("La Cedula es: "+Persona.Cedula);
     }
-    public static void telefono(){
-        Persona objtelefono = new Telefono();
-        objtelefono.imprimirdatos();
-        System.out.println("el telefono es: "+Persona.Telefono);
-    }
+ 
